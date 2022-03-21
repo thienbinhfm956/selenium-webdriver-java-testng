@@ -23,7 +23,7 @@ public class Topic_02_Selenium_Locator {
 		driver = new FirefoxDriver();
 		
 		// Set thời gian đi tìm element
-		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		
 		// Bật browser to lên 
 		driver.manage().window().maximize();
@@ -48,7 +48,7 @@ public class Topic_02_Selenium_Locator {
 		driver.findElement(By.className("fb_logo"));
 	
 		// Tagname
-		driver.findElement(By.tagName("a")); // ra 1 cái đầu tiên 
+		//driver.findElement(By.tagName("a")); // ra 1 cái đầu tiên 
 		
 		driver.findElements(By.tagName("a"));
 		
@@ -83,15 +83,15 @@ public class Topic_02_Selenium_Locator {
 		
 		// Xpath
 		driver.findElement(By.xpath("//input[@id='email']"));
-		driver.findElement(By.xpath("//image[@class='fb_logo _8ilh img']"));
-		driver.findElement(By.xpath("//image[contains(@class,'fb_logo')]"));
-		driver.findElement(By.xpath("//image[starts-with(@class,'fb_logo')]"));
+		driver.findElement(By.xpath("//img[@class='fb_logo _8ilh img']"));
+		driver.findElement(By.xpath("//img[contains(@class,'fb_logo')]"));
+		driver.findElement(By.xpath("//img[starts-with(@class,'fb_logo')]"));
 		driver.findElement(By.xpath("//input[@name='email']"));
-		driver.findElement(By.cssSelector("//a"));
-		driver.findElement(By.cssSelector("//a[text()='Tiếng Việt']"));
-		driver.findElement(By.cssSelector("//a[contains(text(),'Tiếng Việt')]"));
-		driver.findElement(By.cssSelector("//a[contains(text(),'Việt')]"));
-		driver.findElement(By.cssSelector("//a[contains(text(),'Tiếng')]"));
+		driver.findElement(By.xpath("//a"));
+		driver.findElement(By.xpath("//a[text()='Tiếng Việt']"));
+		driver.findElement(By.xpath("//a[contains(text(),'Tiếng Việt')]"));
+		driver.findElement(By.xpath("//a[contains(text(),'Việt')]"));
+		driver.findElement(By.xpath("//a[contains(text(),'Tiếng')]"));
 	}
 
 	@Test
