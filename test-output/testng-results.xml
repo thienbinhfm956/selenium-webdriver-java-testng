@@ -1,33 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="0" failed="0" skipped="6">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-11T00:13:54Z" name="Default suite" finished-at="2022-03-11T00:14:05Z" duration-ms="11154">
+  <suite started-at="2022-04-07T00:02:26Z" name="Default suite" finished-at="2022-04-07T00:02:26Z" duration-ms="178">
     <groups>
     </groups>
-    <test started-at="2022-03-11T00:13:54Z" name="Default test" finished-at="2022-03-11T00:14:05Z" duration-ms="11154">
-      <class name="webdriver.Topic_01_Check_Environment">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@398dada8]" started-at="2022-03-11T00:13:54Z" name="beforeClass" finished-at="2022-03-11T00:14:04Z" duration-ms="9631" status="PASS">
+    <test started-at="2022-04-07T00:02:26Z" name="Default test" finished-at="2022-04-07T00:02:26Z" duration-ms="178">
+      <class name="webdriver.Topic_03_Xpath_Part_II">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="beforeClass" finished-at="2022-04-07T00:02:26Z" duration-ms="132" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_ValidateCurrentUrl()[pri:0, instance:webdriver.Topic_01_Check_Environment@398dada8]" started-at="2022-03-11T00:14:04Z" name="TC_01_ValidateCurrentUrl" finished-at="2022-03-11T00:14:04Z" duration-ms="56" status="PASS">
+        <test-method signature="Register_01_Empty_Data()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_01_Empty_Data" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_ValidateCurrentUrl -->
-        <test-method signature="TC_02_ValidatePageTitle()[pri:0, instance:webdriver.Topic_01_Check_Environment@398dada8]" started-at="2022-03-11T00:14:04Z" name="TC_02_ValidatePageTitle" finished-at="2022-03-11T00:14:04Z" duration-ms="14" status="PASS">
+        </test-method> <!-- Register_01_Empty_Data -->
+        <test-method signature="Register_02_Invalid_Email()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_02_Invalid_Email" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_ValidatePageTitle -->
-        <test-method signature="TC_03_LoginFormDisplayed()[pri:0, instance:webdriver.Topic_01_Check_Environment@398dada8]" started-at="2022-03-11T00:14:04Z" name="TC_03_LoginFormDisplayed" finished-at="2022-03-11T00:14:04Z" duration-ms="183" status="PASS">
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method signature="Register_03_Incorrect_Confirm_Email()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_03_Incorrect_Confirm_Email" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_03_LoginFormDisplayed -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_01_Check_Environment@398dada8]" started-at="2022-03-11T00:14:04Z" name="afterClass" finished-at="2022-03-11T00:14:05Z" duration-ms="1224" status="PASS">
+        </test-method> <!-- Register_03_Incorrect_Confirm_Email -->
+        <test-method signature="Register_04_Password_Less_Than_6_Chars()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_04_Password_Less_Than_6_Chars" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_04_Password_Less_Than_6_Chars -->
+        <test-method signature="Register_05_Incorrect_Confirm_Password()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_05_Incorrect_Confirm_Password" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_05_Incorrect_Confirm_Password -->
+        <test-method signature="Register_06_Incorrect_Phone()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="Register_06_Incorrect_Phone" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\AutomationTest\Selenium-Webdriver\browserDriver\geckodriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:44)
+at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:167)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.firefox.FirefoxDriver.toExecutor(FirefoxDriver.java:190)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:147)
+at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:125)
+at webdriver.Topic_03_Xpath_Part_II.beforeClass(Topic_03_Xpath_Part_II.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register_06_Incorrect_Phone -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_03_Xpath_Part_II@6a57ae10]" started-at="2022-04-07T00:02:26Z" name="afterClass" finished-at="2022-04-07T00:02:26Z" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_01_Check_Environment -->
+      </class> <!-- webdriver.Topic_03_Xpath_Part_II -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
