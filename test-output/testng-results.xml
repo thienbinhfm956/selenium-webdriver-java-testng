@@ -1,37 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-26T12:14:42Z" name="Default suite" finished-at="2022-07-26T12:15:03Z" duration-ms="21234">
+  <suite started-at="2022-08-02T13:41:24Z" name="Default suite" finished-at="2022-08-02T13:41:33Z" duration-ms="8978">
     <groups>
     </groups>
-    <test started-at="2022-07-26T12:14:42Z" name="Default test" finished-at="2022-07-26T12:15:03Z" duration-ms="21234">
-      <class name="webdriver.Topic_04_Xpath_Css_I">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:14:42Z" name="beforeClass" finished-at="2022-07-26T12:14:47Z" duration-ms="5114" status="PASS">
+    <test started-at="2022-08-02T13:41:24Z" name="Default test" finished-at="2022-08-02T13:41:33Z" duration-ms="8978">
+      <class name="webdriver.Topic_09_Button_Radio_Checkbox">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webdriver.Topic_09_Button_Radio_Checkbox@5cdec700]" started-at="2022-08-02T13:41:24Z" name="beforeClass" finished-at="2022-08-02T13:41:26Z" duration-ms="1990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="TC_01_Login_with_empty_Email_and_Password()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:14:47Z" name="TC_01_Login_with_empty_Email_and_Password" finished-at="2022-07-26T12:14:53Z" duration-ms="6139" status="PASS">
+        <test-method signature="TC_01_Button_Javascript_Executor()[pri:0, instance:webdriver.Topic_09_Button_Radio_Checkbox@5cdec700]" started-at="2022-08-02T13:41:26Z" name="TC_01_Button_Javascript_Executor" finished-at="2022-08-02T13:41:31Z" duration-ms="4162" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_01_Login_with_empty_Email_and_Password -->
-        <test-method signature="TC_02_Login_with_invalid_Email()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:14:53Z" name="TC_02_Login_with_invalid_Email" finished-at="2022-07-26T12:14:56Z" duration-ms="2766" status="PASS">
+        </test-method> <!-- TC_01_Button_Javascript_Executor -->
+        <test-method signature="TC_04_Google_Form_Custom_Checkbox_or_Radio_button()[pri:0, instance:webdriver.Topic_09_Button_Radio_Checkbox@5cdec700]" started-at="2022-08-02T13:41:31Z" name="TC_04_Google_Form_Custom_Checkbox_or_Radio_button" finished-at="2022-08-02T13:41:32Z" duration-ms="1895" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_02_Login_with_invalid_Email -->
-        <test-method signature="TC_03_Login_with_Password_less_than_6_characters()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:14:56Z" name="TC_03_Login_with_Password_less_than_6_characters" finished-at="2022-07-26T12:14:59Z" duration-ms="2589" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_03_Login_with_Password_less_than_6_characters -->
-        <test-method signature="TC_04_Login_with_incorrect_Email_and_Password()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:14:59Z" name="TC_04_Login_with_incorrect_Email_and_Password" finished-at="2022-07-26T12:15:02Z" duration-ms="3634" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_04_Login_with_incorrect_Email_and_Password -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_04_Xpath_Css_I@7b7fdc8]" started-at="2022-07-26T12:15:02Z" name="afterClass" finished-at="2022-07-26T12:15:03Z" duration-ms="953" status="PASS">
+        </test-method> <!-- TC_04_Google_Form_Custom_Checkbox_or_Radio_button -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:webdriver.Topic_09_Button_Radio_Checkbox@5cdec700]" started-at="2022-08-02T13:41:32Z" name="afterClass" finished-at="2022-08-02T13:41:33Z" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- webdriver.Topic_04_Xpath_Css_I -->
+      </class> <!-- webdriver.Topic_09_Button_Radio_Checkbox -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
